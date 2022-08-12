@@ -1,8 +1,6 @@
 serial_port="/dev/ttyUSB0"
 
-host="localhost"
-port="8086"
-username="root"
-password="root"
-database="energy"
-
+influx_url = "http://localhost:8086"
+influx_token = ""
+influx_org = "org"
+influx_bucket = "energy"
